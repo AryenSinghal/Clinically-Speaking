@@ -69,8 +69,6 @@ See [docs/SETUP.md](docs/SETUP.md) for the checklist. In short:
 6. Set `DEMO_PHONE_OVERRIDE` to your own phone.
 7. `npm run dev`, open http://localhost:3000.
 
-Demo walkthrough: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md).
-
 ## Project layout
 
 ```
@@ -86,12 +84,3 @@ src/lib/vapi.ts          Vapi call start and webhook helpers
 supabase/migrations/     database schema
 docs/                    demo script and setup checklist
 ```
-
-## Honest caveats
-
-- **Synthetic data only.** Candidates, phones and studies are fake. Do not enter real patient data.
-- **No authentication and no RLS.** The database is open to the service key and anon Realtime. Fine for a demo, not for production.
-- **Compliance is out of scope.** HIPAA, TCPA (consent and calling hours), GDPR and 21 CFR Part 11 (audit trail, e-signatures, validation) are next steps, not implemented.
-- AI extraction can be wrong. That is why every value carries its evidence quote, confidence and a human review status.
-- The Gemini model name is configurable via `GEMINI_MODEL`.
-- Survey "simulate day" is a virtual clock for demos; there is no real scheduler yet.
