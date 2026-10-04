@@ -1,0 +1,68 @@
+CLINICAL STUDY PROTOCOL
+Protocol No. BCH-DH-2026-014
+Title: A Phase 2, Single-Arm, 12-Week Digital Health Study of Remote Electronic Patient-Reported Outcome (ePRO) Monitoring in Adults with Type 2 Diabetes Mellitus and Comorbid Hypertension
+Short Title: CARDIA-PRO
+Sponsor: Beacon Harbor Therapeutics, Inc. (fictional)
+Study Site: Beacon Harbor Clinical Research Unit, 200 Longwood Avenue, Boston, MA 02115 (lat 42.3355, lng -71.1050)
+Phase: 2
+Version: 1.0 (synthetic protocol for demonstration; all content is fictional)
+
+1. SYNOPSIS
+Rationale. Adults with type 2 diabetes mellitus (T2DM) and hypertension carry a high burden of cardiovascular risk, and between-visit self-management is poorly captured by routine care. This study evaluates whether structured, voice-based ePRO survey calls improve medication adherence and patient-reported wellbeing over 12 weeks compared with each participant's own baseline.
+Objectives. Primary: change from Baseline to Week 12 in glycated hemoglobin (HbA1c). Secondary: change in seated systolic blood pressure, change in PHQ-9 depression score, change in EQ-5D-5L index, and medication adherence (MMAS-8) at Week 12.
+Design. Open-label, single-arm, decentralized-hybrid study. Participants complete scheduled ePRO survey calls and two in-clinic visits.
+Sample size. Approximately 60 participants will be enrolled.
+Duration. Each participant is followed for 84 days (12 weeks) after Baseline (Day 0), plus a Screening period of up to 14 days.
+
+2. STUDY POPULATION
+2.1 Target conditions: type 2 diabetes mellitus; hypertension (essential). Participants with prediabetes only are not eligible.
+2.2 Inclusion criteria
+ 1. Adults aged 30 to 70 years inclusive at Screening.
+ 2. Male or female (any sex).
+ 3. Documented diagnosis of type 2 diabetes mellitus for at least 6 months.
+ 4. Documented diagnosis of hypertension, on a stable antihypertensive regimen for at least 3 months.
+ 5. HbA1c between 7.0% and 10.5% at Screening.
+ 6. Resident within 80 km (50 miles) of the Boston study site, able to attend clinic visits at Week 6 and Week 12.
+ 7. Owns a mobile phone and agrees to receive automated telephone survey calls.
+ 8. Able to understand English and provide informed consent.
+2.3 Exclusion criteria
+ 1. Type 1 diabetes or latent autoimmune diabetes in adults.
+ 2. Pregnancy or breastfeeding.
+ 3. History of myocardial infarction, stroke, or unstable angina within the past 6 months.
+ 4. Severe renal impairment (eGFR below 30 mL/min/1.73 m2) or dialysis.
+ 5. Current active suicidal ideation (PHQ-9 item 9 score of 2 or more).
+ 6. Participation in another interventional trial within 30 days.
+ 7. Any condition that, in the investigator's opinion, makes participation unsafe.
+
+3. SCHEDULE OF ACTIVITIES
+Screening (Day -14 to -1): telephone screening call to verify eligibility questions; if eligible, confirmation call to schedule the Baseline visit.
+Baseline (Day 0, clinic): informed consent, vital signs, HbA1c, height and weight (BMI), PHQ-9, EQ-5D-5L, MMAS-8, concomitant medications.
+Weekly ePRO survey calls (Days 7, 14, 21, 28, 35; window +/- 2 days): symptoms, glucose self-monitoring, medication adherence, adverse events.
+Week 6 clinic visit (Day 42, window +/- 3 days): vital signs, weight, PHQ-9, EQ-5D-5L, adverse event review.
+Biweekly ePRO survey calls (Days 56, 70; window +/- 3 days): same content as weekly calls.
+Week 12 clinic visit / End of Study (Day 84, window +/- 4 days): vital signs, HbA1c, weight, PHQ-9, EQ-5D-5L, MMAS-8, end-of-study review.
+
+4. ASSESSMENTS AND INSTRUMENTS
+PHQ-9: 9-item depression severity questionnaire; total score 0-27. Item 9 (thoughts of self-harm) must be escalated to a clinician the same day if scored 1 or higher.
+EQ-5D-5L: five-dimension health-related quality-of-life instrument plus a 0-100 visual analogue scale.
+MMAS-8: 8-item Morisky Medication Adherence Scale; total score 0-8.
+Home glucose: fasting self-measured blood glucose in mg/dL (valid range 40-500 mg/dL).
+Blood pressure: seated systolic/diastolic in mmHg after 5 minutes rest (systolic valid range 70-250; diastolic 40-150).
+Body weight in kilograms recorded to one decimal place.
+Dates are recorded in ISO 8601 format (YYYY-MM-DD). Missing responses are recorded as null, never imputed.
+
+5. SAFETY AND ADVERSE EVENT REPORTING
+5.1 Definition. An adverse event (AE) is any untoward medical occurrence in a participant, whether or not related to participation.
+5.2 Collection. At every ePRO survey call and clinic visit, participants are asked whether they experienced any new or worsening symptoms, hospital or emergency visits, or medication changes since the last contact. Verbatim participant description must be retained.
+5.3 Serious AEs (SAEs). Any death, hospitalization, life-threatening event, or significant disability must be reported by the site to the sponsor within 24 hours of awareness.
+5.4 Escalation rules for automated calls. The voice agent must flag a call for human review when a participant reports: chest pain, fainting, glucose below 54 mg/dL or above 400 mg/dL, systolic blood pressure above 180 mmHg, any thought of self-harm, hospitalization, or unclear/contradictory answers to an eligibility question. A study coordinator reviews flagged calls the same business day.
+5.5 Withdrawal. Participants may withdraw at any time without penalty. Withdrawal status is recorded with the date and stated reason, if given.
+
+6. DATA MANAGEMENT AND REGULATORY NOTES
+All data are captured in an electronic data capture (EDC) system with audit trail. Every value derived from a voice call must retain a verbatim evidence quote and call timestamp so that a reviewer can verify it against the recording. Participant identifiers are replaced by a study ID; phone numbers are stored separately from clinical data. Calls are recorded only after verbal consent at the start of each call. Data handling follows ICH-GCP E6(R2) and 21 CFR Part 11 principles.
+
+7. STATISTICAL CONSIDERATIONS
+The primary analysis is a paired comparison of HbA1c at Week 12 versus Baseline in all participants with at least one post-baseline measurement. A sample of 60 provides 90% power to detect a 0.5 percentage-point reduction assuming a standard deviation of 1.0. Safety is summarized descriptively.
+
+8. ETHICS
+This protocol is a synthetic example created for software demonstration. It describes no real investigational product, sponsor, or study.
